@@ -1,0 +1,386 @@
+
+div.carousel-caption{
+  position: absolute;
+  max-width: 41.66667%;
+  font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #19272e;
+    text-align: left;
+    width: 540px;
+    height: 301px;
+    /* bottom: 70%; */
+    top: 15%;
+    left: 3%;
+}
+
+div.carousel-caption h3{
+  color: #fff;
+  background-color: transparent;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+div.carousel-caption p{
+  color: #fff;
+  font-size: 0.933rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+
+#carwatchnow{
+  background-color: #24baef;
+    border-color: #24baef;
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+    padding-bottom: 1.3rem !important;
+    padding-top: 1.3rem !important;
+    font-size: 0.87516rem;
+    line-height: 1.4;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#carplaylist{
+  margin-left: 1.5rem !important;
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+  padding-bottom: 1.3rem !important;
+  padding-top: 1.3rem !important;
+  font-size: 0.87516rem;
+  line-height: 1.4;
+  border-radius: 0.25rem;
+  color: #f7faff;
+  border-color: #f7faff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+   background-color: transparent;
+   transition: all 0.2s ease-in-out;
+
+}
+
+
+.main{
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+}
+
+
+.carousel-indicators {
+    display: none;
+  }
+  
+  .custom-carousel-indicators {
+    width: 654px;
+    height: 389px;
+    position: absolute;
+    top: 252px; 
+    right: 20px; 
+    z-index: 999;
+  }
+  
+  .custom-carousel-indicators img {
+    width: 204px;
+    height: 120px;
+    margin-right: 10px; 
+    cursor: pointer; 
+    margin-top: 30px;
+  }
+  
+  .custom-carousel-indicators img.active {
+    border: 2px solid #007bff; 
+  }
+
+  .carousel-indicators button{
+    display: none;
+   }
+   
+   span.carousel-control-prev-icon,
+   span.carousel-control-next-icon{
+    display: none;
+   }
+  
+
+
+   
+
+@media (max-width: 320px) {
+
+  .custom-carousel-indicators{
+    width: auto;
+    position:absolute;
+    top: 40px;
+   right: 290px;
+   display: none; 
+  }
+
+  .custom-carousel-indicators img {
+ 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    color: blue;
+    display: flex; 
+     flex-direction: column-reverse;
+     margin-top: 10%;
+     z-index: 999;
+    
+  }
+
+
+  .custom-carousel-indicators span{
+    background-color: #007bff
+  }
+  
+  /* Active dot */
+  .custom-carousel-indicators span.active {
+    background-color: #007bff;
+  }
+
+  /* Hide caption for small screens */
+div.carousel-caption h3{
+font-size: medium;
+display: none;
+  }
+
+  div.carousel-caption p{
+    font-size: small;
+    display: none;
+  }
+
+  #carplaylist{
+    width: auto;
+    padding: 2%!important;
+    display: none;
+  }
+
+  #carwatchnow{
+    padding: 1%!important;
+    font-size: small;
+    position: absolute;
+    bottom: 50%;
+    border-radius: 30%;
+    background-color: lightcoral;
+    border-color: pink;
+  }
+
+
+
+}
+
+
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+
+  .custom-carousel-indicators{
+    width: auto;
+    position:absolute;
+    top: 80px;
+   right: 340px;
+   display: none;
+    
+  }
+
+  .custom-carousel-indicators img {
+ 
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: blue;
+    color: blue;
+    display: flex; 
+     flex-direction: column-reverse;
+     margin-top: 10%;
+     z-index: 999;
+    
+  }
+
+
+  .custom-carousel-indicators span{
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .custom-carousel-indicators span.active {
+    background-color: transparent;
+    border-color: #007bff;
+  }
+
+  div.carousel-caption h3{
+    font-size: medium;
+    display: none;
+      }
+    
+      div.carousel-caption p{
+        font-size: small;
+        display: none;
+      }
+    
+      #carplaylist{
+        width: auto;
+        padding: 2%!important;
+        display: none;
+      }
+    
+      #carwatchnow{
+        padding: 1%!important;
+       
+        font-size: small;
+        position: absolute;
+        bottom: 55%;
+        border-radius: 30%;
+        background-color: lightcoral;
+        border-color: pink;
+      }
+    
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+
+  .custom-carousel-indicators{
+    width: auto;
+    position:absolute;
+    top: 95px;
+   right: 388px;
+   display: none;
+    
+  }
+
+  .custom-carousel-indicators img {
+ 
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: blue;
+    color: blue;
+    display: flex; 
+     flex-direction: column-reverse;
+     margin-top: 10%;
+     z-index: 999;
+    
+  }
+
+
+  .custom-carousel-indicators span{
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .custom-carousel-indicators span.active {
+    background-color: transparent;
+    border-color: #007bff;
+  }
+
+  div.carousel-caption h3{
+    font-size: medium;
+    display: none;
+      }
+    
+      div.carousel-caption p{
+        font-size: small;
+        display: none;
+      }
+    
+      #carplaylist{
+        width: auto;
+        padding: 2%!important;
+        display: none;
+      }
+    
+      #carwatchnow{
+        padding: 1%!important;
+        font-size: small;
+        position: absolute;
+        bottom: 48%;
+        border-radius: 30%;
+        background-color: lightcoral;
+        border-color: pink;
+      }
+  
+}
+
+a.carousel-control-prev{
+  width: 2px;
+}
+
+
+
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+  .custom-carousel-indicators{
+    width: auto;
+    position:absolute;
+    top: 124px;
+   right: 732px;
+    display: none;
+  }
+
+  .custom-carousel-indicators img {
+ 
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: blue;
+    color: blue;
+    display: flex; 
+     flex-direction: column-reverse;
+     margin-top: 10%;
+     z-index: 999;
+    
+  }
+
+
+  .custom-carousel-indicators span{
+    background-color: #007bff
+  }
+  
+
+  .custom-carousel-indicators span.active {
+    background-color: #007bff;
+  }
+
+
+  div.carousel-caption h3{
+    font-size: medium;
+    display: none;
+      }
+    
+      div.carousel-caption p{
+        font-size: small;
+        display: none;
+      }
+    
+      #carplaylist{
+        width: auto;
+        padding: 2%!important;
+        display: none;
+      }
+    
+      #carwatchnow{
+        padding: 2%!important;
+        font-size: medium;
+        position: absolute;
+        bottom: 20%;
+        border-radius: 30%;
+        background-color: lightcoral;
+        border-color: pink;
+      }
+  
+}

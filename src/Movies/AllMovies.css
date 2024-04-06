@@ -1,0 +1,281 @@
+
+.allmoviescomp{
+    background-color: #131722;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    text-align: center;
+    /* line-height: 3; */
+}
+
+.headingcrumb{
+    font-size: 0.87422rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.75rem 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0.3125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #19272e;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+}
+
+.headingcrumb a{
+    text-decoration: none;
+    color: #949cb0 !important;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 0.87422rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+}
+
+.headingcrumb p{
+    color: #fff;
+}
+
+div.allmoviescomp1{
+    background-color: #1c212e;
+    padding-bottom: 1.5rem !important;
+    padding-top: 1.5rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    margin-bottom: 1.5rem !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+
+.filter1{
+    width: 92px;
+}
+
+.filter2 li label{
+    padding-left: 5px;
+}
+
+.filter1 li label{
+    padding-left: 5px;
+}
+
+#iconsmain{
+    padding: 0%;
+}
+
+.caticons li{
+    width: 50px;
+    height: 44px;
+    background-color: #373c49;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #19272e; 
+    text-align: center;
+    margin-right: 5px;
+}
+
+.caticons li span{
+    margin: 0%;
+    width: 20px;
+    height: 20px;
+    content: "\f2d0";
+    box-sizing: border-box;
+    color: #d1d1d1;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-top: 2px;
+}
+.caticons li p{
+    color: #949cb0 !important;    
+    font-size: 0.625rem;
+    font-weight: 600 !important;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+}
+
+
+/*  */
+.moviesbyyear li{
+padding: 8px;
+cursor: pointer;
+background-color: #181d29;
+font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #19272e;
+    padding-bottom: 0.25rem !important;
+    margin: 2px;
+    height: 40px;
+}
+
+.moviesbyyear p{
+    color: #24baef;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.ratings .row .col svg{
+margin: 2px;
+} 
+
+.tabcontent{
+    flex-wrap: wrap!important;
+    justify-content: center!important;
+
+}
+
+.tabcontent .text-start{
+    height: 270px;
+}
+
+.tabcontent p{
+    font-size: 0.75rem !important;
+    margin-bottom: 5px !important;
+    color: #949cb0;
+}
+
+.tabcontent h6{
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    font-size: 0.87422rem;
+    font-weight: 700 !important;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.4;
+    text-align: left;
+    width: 160px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+div.row{
+    margin: 0%;
+}
+
+.moviesheader header{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.4;
+    font-size: 1.5rem;
+    font-weight: 500 !important;
+    color: #fff !important;}
+
+
+div.top5_allmov span{
+    margin-left: 0%;
+}
+
+.tabcontent p:hover{
+    color: #24baef;
+}
+
+.tabcontent :hover{
+    color: #24baef;
+}
+
+
+
+
+@media (max-width: 425px) {
+
+    div.headingcrumb{
+        margin: 0%;
+        width: fit-content;
+        align-content: center;
+        
+    }
+    
+    div.allmoviescomp1{
+        margin: 0%;
+        width: fit-content;
+        
+    }
+
+    .filter1,
+    .filter2 {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .caticons li {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 426px) and (max-width: 767.98px) {
+    
+    div.headingcrumb{
+        margin: 0%;
+        width: fit-content;
+        align-content: center;
+        
+    }
+    
+    div.allmoviescomp1{
+        margin: 0%;
+        width: fit-content;
+        
+    }
+
+    
+    .allmoviescomp1 {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    
+    div.headingcrumb{
+        margin: 0%;
+        width: fit-content;
+
+        
+    }
+    
+    div.allmoviescomp1{
+        margin: 0%;
+        width: fit-content;
+        
+    }
+
+
+    .tabcontent .text-start {
+      height: auto;
+    }
+    .tabcontent h6 {
+      width: auto;
+    }
+  }
+  
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+    .tabcontent h6 {
+      width: auto;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+  }
+  
+
+
+
+  

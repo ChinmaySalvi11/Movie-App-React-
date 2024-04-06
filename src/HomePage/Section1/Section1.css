@@ -1,0 +1,232 @@
+
+div.row1popmov,
+div.row2popmov,
+div.row3popmov {
+    width: fit-content;
+    padding: 0%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+
+div.row1popmov p,
+div.row2popmov p,
+div.row3popmov p {
+    margin-bottom: 0%;
+}
+
+
+.sec1title {
+    font-size: 1.8rem;
+    font-weight: 600 !important;
+    color: #fff !important;
+    line-height: 1.2;
+    font-family: "Montserrat", sans-serif;
+    align-items: start;
+}
+
+.sec1p {
+    color: #949cb0 !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500 !important;
+    text-align: left;
+    font-size: 0.937rem;
+    margin-bottom: 10px;
+}
+
+.sec1 a {
+    color: #949cb0 !important;
+    font-size: 0.812rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500 !important;
+    align-items: center !important;
+    text-decoration: none;
+}
+
+.rowpopedit p {
+    color: #949CB0;
+}
+
+.rowpopedit p:hover {
+    color: #24baef;
+}
+
+.rowpopedit h7 {
+    color: white;
+}
+
+.rowpopedit h7:hover {
+    color: #24baef;
+}
+
+a.viewall:hover {
+    color: #fff;
+}
+
+
+.sec1title {
+    font-size: 1.8rem;
+    font-weight: 600 !important;
+    color: #fff !important;
+    line-height: 1.2;
+    font-family: "Montserrat", sans-serif;
+    align-items: start;
+}
+
+.sec1p {
+    color: #949cb0 !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500 !important;
+    text-align: left;
+    font-size: 0.937rem;
+    margin-bottom: 10px;
+}
+
+.sec1 a {
+    color: #949cb0 !important;
+    font-size: 0.812rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500 !important;
+    align-items: center !important;
+    text-decoration: none;
+}
+
+.rowpopedit p {
+    color: #949CB0;
+}
+
+.rowpopedit p:hover {
+    color: #24baef;
+}
+
+.rowpopedit h7 {
+    color: white;
+}
+
+.rowpopedit h7:hover {
+    color: #24baef;
+}
+
+a.viewall:hover {
+    color: #fff!important;
+}
+
+
+@media screen and (max-width: 320px) {
+    
+    .row1popmov{
+        align-items: center!important;
+        width: 100%;
+       
+    }
+
+  .row1popmov,
+  .row2popmov,
+  .row3popmov,
+  .rowpopedit {
+    align-items: center;
+    flex-direction: column; /* Change flex direction to column */
+  }
+}
+
+
+
+@media screen and (min-width:321px) and (max-width: 375px) {
+  
+  
+    .row1popmov{
+        /* width: auto; */
+        /* margin-left: 0px!important; */
+        align-items: center!important;
+        width: 100%;
+    }
+
+  .row1popmov,
+  .row2popmov,
+  .row3popmov,
+  .rowpopedit {
+    width: auto;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+  }
+}
+
+@media screen and (min-width:376px) and (max-width: 575px) {
+  
+  .sec1_title{
+   height: fit-content;
+  }
+    .row1popmov{
+        width: auto;
+        /* align-items: center!important; */
+
+        /* margin-left: 50px; */
+    }
+
+  .row1popmov,
+  .row2popmov,
+  .row3popmov,
+  .rowpopedit {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center!important; 
+  }
+}
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .row1popmov,
+    .row2popmov,
+    .row3popmov {
+      justify-content: center;
+    }
+  
+    .row1popmov .rowpopedit,
+    .row2popmov .rowpopedit,
+    .row3popmov .rowpopedit {
+      margin: 0 auto; /* Center the items within the row */
+    }
+    
+    div#example-collapse-text{
+        width: fit-content!important;
+        display: flex;
+        flex-direction: column;
+        margin-left: 230px!important;
+        /* justify-content: center!important; */
+    }
+  }
+
+  
+
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .row1popmov,
+    .row2popmov,
+    .row3popmov {
+      justify-content: center;
+    }
+  
+    .row1popmov .rowpopedit,
+    .row2popmov .rowpopedit,
+    .row3popmov .rowpopedit {
+      margin: 0 auto; /* Center the items within the row */
+    }
+    
+    div#example-collapse-text{
+        width: fit-content!important;
+        display: flex;
+        flex-direction: column;
+        margin-left: 430px!important;
+        /* justify-content: center!important; */
+    }
+  }
+
+  

@@ -1,0 +1,179 @@
+div.controw{
+  margin: 0%;
+}
+
+.contheader{
+    background-color: #f6f7f9;
+    padding-bottom: 5rem !important;
+    padding-top: 4rem !important;
+    margin-bottom: 4.5rem !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #19272e;
+    text-align: left;
+}
+
+.contheader h3{
+    font-weight: 600 !important;
+    text-align: center !important;
+    margin-bottom: 0.25rem !important;
+    color: #19272e;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.4;
+    margin-top: 0;
+}
+
+.contheader p{
+    color: #19272e;
+    padding-left: 0.5rem;
+    font-size: 0.875rem;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.contheader a{
+text-decoration: none;
+    color: #949cb0;
+    background-color: transparent;
+    font-size: 0.875rem;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+#yourmessage{
+    height: 250px;
+}
+
+  .sign {
+    font-size: 25px;
+  }
+ 
+  .accordion-button:not(.collapsed)::after{
+    display: none;
+  }
+
+  .accordion-button::after{
+    display: none;
+  }
+
+
+  
+
+  /*  */
+  div.accordion.accordion-flush{
+    color: white;
+    background-color: white;
+  }
+
+  .accordion-button:not(.collapsed){
+    border-color: white;
+    background-color: white;
+  }
+
+  button.accordion-button{
+    border-color: white;
+    background-color: white;
+  }
+
+  .accordion-button:not(.collapsed){
+    border-color: white;
+    background-color: white;
+    box-shadow: white;
+  }
+
+  .offaddress{
+    width: 230px;
+  }
+
+
+  .offworkinghr p,.offaddress p{
+    color: #949cb0 !important;
+    font-size: 0.812rem;
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit;
+    font-family: "Open Sans", sans-serif;font-family: "Open Sans", sans-serif;
+    text-align: left;
+    margin-bottom: 0%;
+  }
+
+
+
+.moto{
+    padding-bottom: 4rem !important;
+    padding-top: 4rem !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #19272e;
+    text-align: left;
+}
+
+  .moto h6{
+    font-size: 1.5rem;
+    font-weight: 400 !important;
+    text-align: center !important;
+    margin-bottom: 0 !important;
+    color: #19272e;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.4;
+  }
+
+ 
+@media (max-width: 768px) {
+  .contheader h3 {
+    font-size: 1.5rem !important;
+  }
+
+  .contheader p {
+    font-size: 0.8125rem !important;
+  }
+
+  .contheader a {
+    font-size: 0.8125rem !important;
+  }
+
+  #yourmessage {
+    height: 150px !important;
+  }
+
+  .sign {
+    font-size: 20px !important;
+  }
+
+  .offloc{
+    width: fit-content;
+  }
+  .offaddress {
+    /* margin-top: 40px; */
+    width: auto !important;
+  }
+
+  .offworkinghr p,
+  .offaddress p {
+    font-size: 0.8125rem !important;
+  }
+
+  .moto h6 {
+    font-size: 1.25rem !important;
+  }
+
+
+}
+
+@media screen and (max-width: 320px){
+
+  label.form-label{
+    width: -25px;
+  }
+  
+}
+

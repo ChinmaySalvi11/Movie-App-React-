@@ -1,0 +1,256 @@
+.footer{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #19272e;
+    text-align: left;
+    background-color: #0a0d14;
+}
+
+
+#footerul-1{
+    justify-content: space-around;
+    width: 100%;
+    color: #949cb0;
+    
+}
+
+#footerul-1 h6{
+    color: #d1d1d1;
+}
+
+
+#footerul-2{
+    justify-content: space-around;  
+    margin: 0%;
+    color: #949cb0;
+}
+
+
+
+h6.footerul-3{
+padding-left: 30px;
+}
+
+ul.footerul-3{
+    padding-left: 30px;
+    color: #949cb0;
+    }
+    
+
+div.container{
+    margin: 0%;
+
+}
+
+div.mx-auto.mb-2.border-start.col-lg-2.col-md-3{
+    height: 160px;
+}
+
+
+#footer1{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    height: 200px;
+}
+
+
+
+#footerlower{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #949cb0;
+    width: 100%;
+    background-color: #06090f;
+    
+}
+
+
+div.font-size-13.text-gray-1300.mb-2.mb-md-0{
+    color: #949cb0 !important;
+    font-size: 0.812rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+#footerlower a{
+    color: #949cb0 !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.812rem;
+    font-weight: 400;
+    /* line-height: 1.5; */
+    margin-left: 934px;
+}
+
+@media screen and (min-width:0px) and (max-width: 425px) {
+
+  div#footerul-1{
+    justify-content: center!important;
+  }
+
+  div#footerul-2{
+    justify-content: center!important;
+  }
+
+    .footer {
+      font-size: 0.8125rem;
+      /* width: fit-content; */
+    }
+  
+    .me-5.d-none.d-lg-block {
+      display: none;
+    }
+  
+    .socialf {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .text-center.text-md-start {
+      text-align: center;
+    }
+  
+    .mt-5 {
+      margin-top: 3rem !important;
+    }
+  
+    .mx-auto.mb-5 {
+      margin-bottom: 3rem !important;
+    }
+  
+    .border-start.h-80 {
+      border: none !important;
+      height: auto !important;
+      margin-top: 2rem;
+      padding-top: 2rem;
+    }
+  
+    #footer1 {
+      height: auto !important;
+    }
+  
+    #footerlower {
+      font-size: 0.8125rem;
+      padding: 1rem;
+    }
+  
+    div.font-size-13.text-gray-1300.mb-2.mb-md-0 {
+      margin-left: 0 !important;
+    }
+  
+    #footerlower a {
+      margin-left: 0 !important;
+    }
+
+    ul.list-unstyled.footerul-3 li{
+        text-align: center;
+    }
+
+    ul.moviecatr-1,ul.moviecatr-2{
+        margin-left: 40px;
+    }
+
+    div.supportcol{
+        padding-top: 0%!important;
+        margin-top: 0%!important;
+    }
+
+  }
+
+  
+
+
+
+
+
+  @media screen and (min-width: 426px) and (max-width: 1024px) {
+
+     div#footerul-1{
+      justify-content: center!important;
+    }
+
+    div#footerul-2{
+      justify-content: center!important;
+    }
+  
+    .footer {
+      font-size: 0.8125rem;
+      /* width: fit-content; */
+    }
+
+    .footerupper-1{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .me-5.d-none.d-lg-block {
+      display: none;
+    }
+  
+    .socialf {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .text-center.text-md-start {
+      text-align: center;
+    }
+  
+    .mt-5 {
+      margin-top: 3rem !important;
+    }
+  
+    .mx-auto.mb-5 {
+      margin-bottom: 3rem !important;
+    }
+  
+    .border-start.h-80 {
+      border: none !important;
+      height: auto !important;
+      margin-top: 2rem;
+      padding-top: 2rem;
+    }
+  
+    #footer1 {
+      height: auto !important;
+    }
+  
+    .footerlower_1{
+      display: flex;
+      justify-content: space-between;
+      margin: 12px;
+    }
+
+  
+    div.font-size-13.text-gray-1300.mb-2.mb-md-0 {
+      margin-left: 0 !important;
+    }
+  
+    #footerlower a {
+      margin-left: 0 !important;
+    }
+
+    ul.list-unstyled.footerul-3 li{
+        text-align: center;
+    }
+
+    ul.moviecatr-1,ul.moviecatr-2{
+        margin-left: 40px;
+    }
+
+    div.supportcol{
+        padding-top: 0%!important;
+        margin-top: 0%!important;
+    }
+
+  }
+
+
+
+  

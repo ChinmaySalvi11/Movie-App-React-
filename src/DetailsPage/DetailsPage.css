@@ -1,0 +1,364 @@
+div.detailspage_mainrow{
+    background-color: #131722;
+}
+
+div.trailer{
+    margin-bottom: 0.25rem !important;
+    align-items: center !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #19272e;
+    text-align: left;
+}
+
+.trailer h6{
+    align-items: start;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600 !important;
+    margin-bottom: 0.25rem !important;
+    text-align: left;
+    color: #fff !important;
+}
+
+.trailerduration{
+    padding: 0%;
+    list-style-type: none;
+}
+
+.trailerduration li{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 0.933rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+}
+
+div.star_icon svg{
+    content: "\f005";
+    color: #24baef !important;
+    font-size: 2.625rem;
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.rate{
+    color: #949cb0 !important;
+}
+
+div.rate10{
+    color: #24baef !important;
+}
+
+div.hearticon svg{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #949cb0 !important;
+    text-align: left;
+width: 42px;
+height: 42px;
+}
+
+#addplaylist{
+    color: #949cb0 !important;
+    margin-left: 0.5rem !important;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+div.thumpsupicon svg{
+    color: #949cb0 !important;
+}
+
+#descrip{
+    color: #949cb0 !important;
+    font-size: 0.87422rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+}
+
+.trailerviews span{
+
+    line-height: 2;
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+.eyeicon svg{
+    height: 20px;
+    margin-top: 3px;
+    color: #949cb0 !important;
+
+}
+
+
+.sidecol{
+    width: auto;
+}
+
+div.comingsoon img{
+    width: 264px;
+    height: 396px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.trailertab{
+    color: #949cb0;
+}
+
+
+
+
+.trailertab ul{
+    border-color: #283643 !important;
+    justify-content: center !important;
+    flex-wrap: nowrap !important;
+    border-bottom: 0.0625rem solid #d0d0d2 !important;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.trailertab ul li{
+    cursor: pointer;
+    color: #949cb0;
+}
+
+
+.reviewtitle h6{
+    font-size: 1.125rem;
+    font-weight: 500 !important;
+    color: #fff !important;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.4;
+}
+
+.reviewtitle p{
+    color: #949cb0 !important;
+    margin-bottom: 3.5rem !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.userreview h6{   
+     font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500 !important;
+    color: #fff !important;
+    margin-bottom: 1.5rem !important;
+    line-height: 1.5;
+}
+
+.aburev{
+    padding-bottom: 0.25rem !important;
+    margin-bottom: 1rem !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #19272e;
+}
+
+.aburev img{
+    border-radius: 50% !important;
+}
+.abuname{margin: 0%;}
+.abuname p{color: #24baef;}
+
+.staricons{
+    color: #d0d0d2;
+}
+
+
+.sourcescont{
+    margin-left: 60px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.sourcescont table thead th{
+    width: 149px;
+    color: #fff;
+}
+
+.sourcescont table tbody tr{
+    width: 210px;
+    height: 35px;
+    color: #fff;
+}
+
+
+.sourcescont table tbody td{
+    border-color: #283643 !important;
+    border-bottom: 0.0625rem solid #d0d0d2 !important;
+}
+
+
+
+
+.carddetailsp{
+    width: 222px;
+    height: 334px;
+}
+img.card-img{
+    width: 222px;
+    height: 334px;
+} 
+
+.card-title{
+    overflow: hidden;
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card-text{
+    height:80px ;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: small;
+    overflow: hidden;
+}
+
+.carddetailsp button{
+    color: #fff;
+    border: 2px solid #fff;
+    width: 100% !important;
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+    padding: 0.58563rem 1.05412rem;
+    font-size: 0.87516rem;
+    line-height: 1.4;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+div.card-img-overlay{
+margin-top: 110px;
+}
+
+.top5list span{
+    margin-left:0px ;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .trailer{
+        width: fit-content;
+    }
+
+    div.trailer_time_type{
+        margin: 0%;
+        padding: 0%;
+        width: fit-content;
+    }
+
+    .sidecol ol{
+        display: none;
+    }
+
+    iframe{
+        width: 100%;
+        height:450px;
+    }
+
+    
+
+    .star_hearticn{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .trailerviews{
+        justify-content: space-around;
+    }
+    
+    .row1det {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    
+    .sidecol {
+      margin-top: 1rem;
+      width: 100%;
+    }
+    
+    .comingsoon img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .trailertab ul {
+      justify-content: space-around;
+      margin-bottom: 1rem;
+    }
+    
+    .reviewcont,
+    .sourcescont {
+      margin-left: 0;
+    }
+    
+    .sourcescont table thead th {
+      width: auto;
+    }
+    
+    .sourcescont table tbody tr,
+    .sourcescont table tbody td {
+      width: auto;
+      display: block;
+      text-align: left;
+    }
+    
+    .card_main{
+    flex-direction: column;
+
+    }
+
+
+    .carddetailsp img.card-img{
+        width: 100%;
+    }
+
+    .carddetailsp {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    
+    .carddetailsp button {
+      width: 100%;
+    }
+  }
+  

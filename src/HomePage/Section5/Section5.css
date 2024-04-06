@@ -1,0 +1,191 @@
+
+.valentinesmain {
+  background-color: #f5f5f5;
+  padding-bottom: 4rem !important;
+  padding-top: 4rem !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.937rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #19272e;
+  text-align: left;
+}
+
+.valentinescol1.col-md-8.slider-container {
+  padding: 0%;
+}
+
+.valentinescol1 .text-center h4 {
+  width: fit-content;
+}
+
+.valentinescol2 p {
+  margin-top: 70px;
+}
+
+.valentinescol2 {
+  text-align: left;
+}
+
+.valentinescol2.col-md-4 {
+  padding: 0%;
+}
+
+.valentinescol2.col-md-4 h3 {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: #19272e;
+  font-family: "Montserrat", sans-serif;
+  width: 400px;
+  height: 76px;
+}
+
+.slider-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slick-slide {
+  margin: 0;
+  width: 300px;
+}
+
+.slick-slide h4 {
+  font-size: small;
+}
+
+.slick-prev {
+  left: 910px;
+}
+
+.slick-next {
+  right: -90px;
+}
+
+.slick-prev,
+.slick-next {
+  display: none;
+}
+
+.slick-prev,
+.slick-next {
+  width: 17px;
+  height: 56px;
+  font-size: -20px;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+button.slick-arrow.slick-prev::before,
+button.slick-arrow.slick-next::before {
+  opacity: 2;
+  color: #d2d2d8;
+  font-size: 40px;
+  background-color: transparent;
+  border-color: gray;
+}
+
+button.slick-arrow.slick-prev::before:hover,
+button.slick-arrow.slick-next::before:hover {
+  color: black;
+}
+
+li#rommoviestab {
+  cursor: pointer;
+}
+
+li span {
+  margin: 20px;
+}
+
+.valentines.row {
+  --bs-gutter-x: 0;
+}
+
+.valentinesmain .row {
+  --bs-gutter-x: 0;
+}
+
+.valentimg h4{
+  color: #19272e;
+}
+
+.valentimg h4:hover{
+  color: lightskyblue;
+}
+
+
+.viewall_sec5 p{
+color: #19272e;
+}
+
+
+.viewall_sec5 p:hover{
+  color: lightskyblue;
+  }
+@media screen and (max-width: 768px) {
+  .valentinesmain{
+    width: 2px;
+    height: 2px;
+    display: none;
+  }
+
+  /* div.slick-list{
+    height: auto;
+  }
+
+  div.slick-track{
+    width: fit-content;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   }
+
+  div.slick-list{
+    width: 900px;
+  }
+
+  div.valentinescol1 .slick-slider .slick-list{
+    flex-wrap: wrap;
+  }
+
+  .valentimg{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    width: 82px; 
+    height: 80px;
+  }
+
+  .valentimg img{
+    flex-wrap: wrap;
+    width: fit-content;
+    width: 60px!important;
+    height: 60px!important;
+  }
+  .valentinescol2{
+    width: fit-content;
+  } */
+  } 
+
+
+
+
+
+
+
+
+
+
+

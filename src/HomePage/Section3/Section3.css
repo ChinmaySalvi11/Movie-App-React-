@@ -1,0 +1,423 @@
+.product img{
+    width: 203px;
+    height: 115px;
+}
+
+.product p{margin: 0%;}
+
+li#poptvseriestab span{
+margin: 20px;
+}
+
+
+
+div.popTrow1.col-md-5.mb-3{
+    background-color: transparent;
+    width: 410px;
+}
+
+div.popTrow1.col-md-5.mb-3 h3{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 600 !important;
+    line-height: 1.2;
+    color: #19272e;
+    font-family: "Montserrat", sans-serif;
+}
+
+.populartvseries{
+    background-color: #ededf5;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.937rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #19272e;
+    text-align: left;
+    padding-top: 30px;
+}
+
+div.row.ms-1.popTrow2{
+    margin: 0%;
+    padding-bottom: 30px;
+}
+
+div.row.tvseries{
+    margin: 0%;
+}
+
+div.product p{
+    color: #949cb0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+div.product h6{
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.87422rem;
+    font-weight: 700 !important;
+}
+
+li#poptvseriestab{
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 320px) {
+
+
+    .populartvseries{
+        width: fit-content;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    .tvseries .tab-nav{
+        width: fit-content;
+    }
+
+    .tvseries ul{
+        width: fit-content;
+    }
+
+    div.poptrow1_main{
+    width: fit-content!important;
+    display: flex;
+    justify-content: center;
+    }
+    
+
+    div.popTrow1{
+    width: fit-content!important;
+    margin: 0%;
+    padding: 0%;
+    
+    }
+
+
+    div.popTrow1 h3.display-7.mb-3{
+    width: fit-content;
+    font-size: medium;
+    }
+
+    div.defsec3{ 
+    padding: 0%;
+    width: fit-content!important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 415px;
+    margin: 0%!important;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .defsec3 .product{
+        width: fit-content;
+        /* margin-left: 20px; */
+        /* margin: 0%!important; */
+    }
+
+    .defsec3 .product img{
+        width: 100px;
+        height: 150px;
+    }
+
+.product.text-start a h6{
+        overflow: hidden;
+        width: auto;
+    }
+
+    /*  */
+    
+    div.popTrow2{
+    width: fit-content;
+    margin: 0%;
+    padding: 0%;
+ 
+    }
+
+
+    div.popTrow2 h3{
+    width: fit-content;
+    font-size: medium;
+    }
+
+
+    div.defsec{
+        padding: 0%;
+        width: fit-content;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 732px;
+        margin: 0%!important;
+        align-items: center;
+    }
+
+
+    .defsec .product{
+        width: 50%;
+        /* margin-left: 20px; */
+        margin-bottom: 30px;
+    }
+
+    .defsec .product img{
+        width: 100px;
+        height: 150px;
+    }
+
+    .defsec .product h6{
+        overflow: hidden!important;
+    }
+
+    /*  */
+
+
+
+}
+  
+@media (min-width: 321px) and (max-width: 425px) {
+
+    .populartvseries{
+        width: fit-content;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .tvseries .tab-nav{
+        width: fit-content;
+    }
+
+    .tvseries ul{
+        width: fit-content;
+    }
+
+    div.poptrow1_main{
+        width: fit-content!important;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    div.popTrow1{
+    width: fit-content!important;
+    margin: 0%;
+    padding: 0%;
+    
+    }
+
+
+    div.popTrow1 h3.display-7.mb-3{
+    width: fit-content;
+    font-size: medium;
+    margin-left: auto ;
+    }
+
+    div.defsec3{ 
+    padding: 0%;
+    width: fit-content!important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 415px;
+    /* margin: 0%!important; */
+    align-items: center;
+
+    }
+
+    .defsec3 .product{
+        width: fit-content;
+        margin-left: 20px;
+        /* margin: 0%!important; */
+    }
+
+    .defsec3 .product img{
+        width: 100px;
+        height: 150px;
+    }
+
+.product.text-start a h6{
+        overflow: hidden;
+        width: auto;
+    }
+
+    /*  */
+    
+    div.popTrow2{
+    width: fit-content;
+    margin: 0%;
+    padding: 0%;
+ 
+    }
+
+
+    div.popTrow2 h3{
+    width: fit-content;
+    font-size: medium;
+    }
+
+
+    div.defsec{
+        padding: 0%;
+        width: fit-content;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 732px;
+        margin: 0%!important;
+        align-items: center;
+    }
+
+
+    .defsec .product{
+        width: 120px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    .defsec .product img{
+        width: 100px;
+        height: 150px;
+    }
+
+    .defsec .product h6{
+        overflow: hidden!important;
+    }
+
+    /* div.product.product.text-start a h6{
+width: 20px;
+    } */
+    /*  */
+
+
+
+}
+  
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+
+    .populartvseries{
+        width: fit-content;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tvseries .tab-nav{
+        width: fit-content;
+    }
+
+    .tvseries ul{
+        width: fit-content;
+    }
+
+    div.poptrow1_main{
+        width: fit-content;
+        align-items: center;
+    }
+    
+
+    div.popTrow1{
+    width: fit-content;
+    padding: 0%;
+    margin-left: 150px;
+    
+    }
+
+
+    div.popTrow1 h3.display-7.mb-3{
+    width: fit-content;
+    font-size: medium;
+    margin-left: 18%!important;
+    }
+
+    div.defsec3{ 
+    width: 100%!important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 212px;
+    align-items: center!important;
+    
+    margin-left: 0%!important;
+
+    }
+
+    .defsec3 .product{
+        width: 65px;
+        text-align: center!important;
+        margin:10px ;
+    }
+
+    .defsec3 .product img{
+        width: 80px;
+        height: 130px;
+    }
+
+.product.text-start a h6{
+        overflow: hidden;
+        width: auto;
+    }
+
+    /*  */
+    
+    div.popTrow2{
+    width: fit-content;
+    margin: 0%;
+    padding: 0%;
+ 
+    }
+
+
+    div.popTrow2 h3{
+    width: fit-content;
+    font-size: medium;
+    }
+
+
+    div.defsec{
+        padding: 0%;
+        width:fit-content;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 467px;
+        /* margin-left: 120px!important; */
+        align-items: center;
+    }
+
+
+    .defsec .product{
+        width: 120px;
+        /* margin-left: 10px; */
+        margin-bottom: 30px;
+        text-align: center!important;
+    }
+
+    .defsec .product img{
+        width: 80px;
+        height: 130px;
+    }
+
+    .defsec .product h6{
+        overflow: hidden!important;
+    }
+
+    /*  */
+
+
+
+}
+  
